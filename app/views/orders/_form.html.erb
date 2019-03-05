@@ -1,6 +1,0 @@
-<%= simple_form_for @order do |f| %>
-  <%= f.association :table, label_method: :number, value_method: :id, include_blank: false %>
-  <%= f.association :client %>
-  <%= f.association :foods, as: :check_boxes %>
-  <%= f.button :submit %>
-<% end %>
