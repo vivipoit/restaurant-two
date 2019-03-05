@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Table:</strong>
+  <%= @order.table.number %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @order.client.name %>
+</p>
+
+<%= link_to 'See All', orders_path %>
