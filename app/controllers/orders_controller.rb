@@ -29,6 +29,6 @@ class OrdersController < ApplicationController
   private
 
     def order_params
-      params.require(:order).permit(:table_id, :client_id)
+      params.require(:order).permit(:table_id, :client_id, food_ids: [])
     end
 end
