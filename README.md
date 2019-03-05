@@ -1,24 +1,6 @@
-# README
+# This app is material for a Ruby on Rails class
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a simple Rails app created to be used in Ruby on Rails classes.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Presentation used in class can be found here:
+https://docs.google.com/presentation/d/1nHyawhVUuJcepT2hx6tMSm4ZZbvYQzkAzOVR3t5-Bkw/edit?usp=sharing
