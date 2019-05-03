@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :table do
-    number    { 5 }
-    location  { 'Balcony' }
-    note      { 'Wobbles' }
+    number { 1 }
+    location { "MyString" }
+    note { "MyText" }
   end
 end

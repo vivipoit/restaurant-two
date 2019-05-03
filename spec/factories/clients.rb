@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :client do
-    name             { 'John' }
-    number_of_people { 4 }
+    name { "MyString" }
+    number_of_people { 1 }
   end
 end

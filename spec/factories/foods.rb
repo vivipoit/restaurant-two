@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :food do
-    name  { 'Chicken' }
-    price { 7500 }
+    name { "MyString" }
+    price { 1 }
   end
 end

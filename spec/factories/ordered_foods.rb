@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :ordered_food do
-    association :order
-    association :food
+    food { nil }
+    order { nil }
   end
 end
