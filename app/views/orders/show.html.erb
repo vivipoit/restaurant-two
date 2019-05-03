@@ -1,0 +1,9 @@
+<%= notice %>
+
+Table: <%= @order.table.number %>
+Client: <%= @order.client.name %>
+Foods:
+
+<% @order.foods.each do |f| %>
+    <%= f.name %>
+<% end %>
